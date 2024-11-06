@@ -11,8 +11,11 @@ The example will do exactly this:
 
 ```
 module "naming" {
-  source      = "../"
-  landingzone = "hubm"
+  source              = "../../"
+  landingzone         = "hubm"
+  workload_identifier = "tsi01"
+  environment         = "ppd"
+  location            = "uksouth"
 }
 ```
 <!-- End tf-docs -->

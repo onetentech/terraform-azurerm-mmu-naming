@@ -18,6 +18,13 @@ content: |-
   
   {{ .Footer }}
 
+    # Examples
+
+  ```hcl
+  {{ include "examples/base_example/main.tf" }}
+   {{ include "examples/base_example/output.tf" }}
+  ```  
+
 output:
   file: README.md
   mode: replace

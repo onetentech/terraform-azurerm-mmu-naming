@@ -5,6 +5,8 @@
 
 The MMU Naming Module is designed to standardize the naming conventions for Azure resources. This module ensures that all resources follow a consistent naming pattern, which helps in managing and identifying resources easily.
 
+
+
 ## Required Inputs
 
 The following input variables are required:
@@ -42,4 +44,19 @@ Type: `string`
 Default: `null`
 
 
+
+# Examples
+
+```hcl
+module "naming" {
+  source              = "../../"
+  landingzone         = "hubm"
+  workload_identifier = "tsi01"
+  environment         = "ppd"
+  location            = "uksouth"
+}
+output "results" {
+  value = module.naming
+}
+```
 <!-- End tf-docs -->
