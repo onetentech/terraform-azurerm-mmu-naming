@@ -1,3 +1,3 @@
-output "name" {
-  value = null_resource.dummy.name
+output "results" {
+  value = module.naming
 }

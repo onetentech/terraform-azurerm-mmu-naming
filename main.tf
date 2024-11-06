@@ -1,5 +1,7 @@
 
-module "dummy" {
-  source = "./modules/module-name"
-  name   = var.name
+
+module "naming" {
+  source  = "Azure/naming/azurerm"
+  version = "0.4.1"
+  suffix  = local.suffix
 }

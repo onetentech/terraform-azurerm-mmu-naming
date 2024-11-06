@@ -2,7 +2,7 @@ formatter: markdown
 
 version: ""
 
-header-from: header.tf
+header-from: header.md
 footer-from: ""
 
 sections:

@@ -10,8 +10,9 @@ The example will do exactly this:
 ## Example
 
 ```
-resource "null_resource" "dummy" {
-  name = var.name
+module "naming" {
+  source      = "../"
+  landingzone = "hubm"
 }
 ```
 <!-- End tf-docs -->

@@ -1,5 +1,7 @@
 
-output "dummy_output" {
-  value       = module.subnets.subnet_id
-  description = "The subnet ID of the newly created subnet"
+output "virtual_machine" {
+  value = module.naming.virtual_machine
+}
+output "resource_group" {
+  value = module.naming.resource_group
 }
