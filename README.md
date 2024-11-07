@@ -59,4 +59,15 @@ output "results" {
   value = module.naming
 }
 ```
+## Outputs
+
+The following outputs are exported:
+
+### <a name="output_resource_group"></a> [resource\_group](#output\_resource\_group)
+
+Description: n/a
+
+### <a name="output_virtual_machine"></a> [virtual\_machine](#output\_virtual\_machine)
+
+Description: n/a
 <!-- End tf-docs -->
